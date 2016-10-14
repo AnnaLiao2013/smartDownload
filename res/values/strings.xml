@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Welcome to SmartDownload!</string>
+    <string name="app_name">Smart Download</string>
+    <string name="path">Download Path</string>
+    <string name="button"></string>
+    <string name="success">Download Success!</string>
+    <string name="error">Download Error!\nPlease check the URL you entered.</string>
+    <string name="sdcarderror">SDCard not exist or write protection</string>
+    <string name="speed">0MB/S</string>
+    <string name="default_link">http://www.winlab.rutgers.edu/~janne/mobisys14gesturesecurity.pdf</string>
+    <string name="download">Download</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="hint_text">Please input the link</string>
+	<string name="done">Done</string>
+	<string name="wifi_unconnected">Wifi is not available</string>
+	<string name="wifi_connected">Wifi is connected</string>
+</resources>

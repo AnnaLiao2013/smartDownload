@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.smart.activity.download"
+    android:versionCode="1"
+    android:versionName="1.1" >
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.smart.activity.download.SmartDownloadActivity"
+            android:label="@string/app_name" >
+            <intent-filter> <!-- this Activity is the entrance of the App -->
+                <action android:name="android.intent.action.MAIN" />
+                <!-- loading App should run Activity -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    <uses-sdk android:minSdkVersion="14" />
+    <!-- Internet permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- SDCard build and delete permission -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- SDCard write permission -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- access WIFI state permission -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- access network permission -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+</manifest>
